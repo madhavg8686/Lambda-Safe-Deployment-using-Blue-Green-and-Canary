@@ -1,13 +1,13 @@
-## Problem
+# Problem
 Organizations need continous changes in order to keep up with production workloads. Traditional deployments causes downtime,service disruption and difficulty rolling back when issues are fornd. Deployment teams need safe deployment strategies that ensure
 high availabilty. Without proper deployment patterns, a single faulty decision can impact thousands of users.
 
-## Solution
+# Solution
 Implement Lambda Deployment patterns using Function versions,aliases, and weighted traffic routing to acheive Blue-Green and
 Canary deployment models. This approach leverages Lambda's built in
 versioning system combined with API gateway to control traffic distribution among different versions. Ensures Zero-Downtime and instant rollback.
 
-## Architecture Diagram
+# Architecture Diagram
 ![alt text](image.png)
 
 ## Prerequisites
